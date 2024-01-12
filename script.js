@@ -16,4 +16,4 @@ async function getWeatherData(location) {
     console.log(`current humidity: ${humidity}`)
     console.log(`current cloud cover: ${cloud}`)
 };
-getWeatherData("dubai")
+getWeatherData("lusaka")

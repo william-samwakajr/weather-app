@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(images/pexels-aleksandar-pasaric-325185.jpg);
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    height: 30rem;
+    background-color: royalblue;
+    opacity: 0.9;
+    border-radius: 0.9rem;
+}
+
+.weather {
+    margin: top 4rem;
+    ;
+}
+
+.user-input {
+    width: 15rem;
+    height: 3.5rem;
+}
