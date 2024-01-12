@@ -13,12 +13,18 @@ main {
     justify-content: center;
 }
 
+.title {
+    font-family: Norse;
+    font-size: 7rem;
+    margin-bottom: 3rem;
+}
+
 .container {
     position: absolute;
     top: 30%;
     display: flex;
     justify-content: center;
-    width: 20rem;
+    width: 40rem;
     height: 30rem;
     background-color: royalblue;
     opacity: 0.9;
@@ -26,11 +32,41 @@ main {
 }
 
 .weather {
-    margin: top 4rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     ;
 }
 
 .user-input {
-    width: 15rem;
+    width: 20rem;
     height: 3.5rem;
+    font-size: 1.3rem;
+}
+
+.search {
+    height: 3.5rem;
+    width: 5rem;
+    font-size: 1.3rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Norse;
+    color: whitesmoke;
+}
+
+.city {
+    font-size: 2.5rem;
+}
+
+.temp {
+    font-size: 6rem;
+}
+
+.condition {
+    font-size: 2rem;
 }
